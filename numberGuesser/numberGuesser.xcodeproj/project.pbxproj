@@ -10,11 +10,13 @@
 		67556B22273A8AAC0060ABEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67556B21273A8AAC0060ABEF /* AppDelegate.swift */; };
 		67556B24273A8AAC0060ABEF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67556B23273A8AAC0060ABEF /* SceneDelegate.swift */; };
 		67556B26273A8AAC0060ABEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67556B25273A8AAC0060ABEF /* ViewController.swift */; };
-		67556B29273A8AAC0060ABEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67556B27273A8AAC0060ABEF /* Main.storyboard */; };
 		67556B2B273A8AAC0060ABEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67556B2A273A8AAC0060ABEF /* Assets.xcassets */; };
 		67556B2E273A8AAC0060ABEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67556B2C273A8AAC0060ABEF /* LaunchScreen.storyboard */; };
 		67556B39273A8AAC0060ABEF /* numberGuesserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67556B38273A8AAC0060ABEF /* numberGuesserTests.swift */; };
 		67556B44273A8AAC0060ABEF /* numberGuesserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67556B43273A8AAC0060ABEF /* numberGuesserUITests.swift */; };
+		67556B52273A8E910060ABEF /* 45088086-940Smiley_Harmonie_Thinkstock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67556B51273A8E910060ABEF /* 45088086-940Smiley_Harmonie_Thinkstock.jpg */; };
+		67556B54273A8EE90060ABEF /* GameLogik.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67556B53273A8EE90060ABEF /* GameLogik.swift */; };
+		67556B56273A8F550060ABEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67556B55273A8F550060ABEF /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,6 @@
 		67556B21273A8AAC0060ABEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67556B23273A8AAC0060ABEF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		67556B25273A8AAC0060ABEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		67556B28273A8AAC0060ABEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		67556B2A273A8AAC0060ABEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67556B2D273A8AAC0060ABEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67556B2F273A8AAC0060ABEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +50,9 @@
 		67556B3F273A8AAC0060ABEF /* numberGuesserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = numberGuesserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67556B43273A8AAC0060ABEF /* numberGuesserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = numberGuesserUITests.swift; sourceTree = "<group>"; };
 		67556B45273A8AAC0060ABEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67556B51273A8E910060ABEF /* 45088086-940Smiley_Harmonie_Thinkstock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "45088086-940Smiley_Harmonie_Thinkstock.jpg"; path = "../../../../../Desktop/neuste version 9.11.2021/Hello world/Hello world/45088086-940Smiley_Harmonie_Thinkstock.jpg"; sourceTree = "<group>"; };
+		67556B53273A8EE90060ABEF /* GameLogik.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameLogik.swift; path = "../../../../../Desktop/neuste version 9.11.2021/Hello world/Hello world/GameLogik.swift"; sourceTree = "<group>"; };
+		67556B55273A8F550060ABEF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +105,10 @@
 			children = (
 				67556B21273A8AAC0060ABEF /* AppDelegate.swift */,
 				67556B23273A8AAC0060ABEF /* SceneDelegate.swift */,
+				67556B51273A8E910060ABEF /* 45088086-940Smiley_Harmonie_Thinkstock.jpg */,
 				67556B25273A8AAC0060ABEF /* ViewController.swift */,
-				67556B27273A8AAC0060ABEF /* Main.storyboard */,
+				67556B53273A8EE90060ABEF /* GameLogik.swift */,
+				67556B55273A8F550060ABEF /* Main.storyboard */,
 				67556B2A273A8AAC0060ABEF /* Assets.xcassets */,
 				67556B2C273A8AAC0060ABEF /* LaunchScreen.storyboard */,
 				67556B2F273A8AAC0060ABEF /* Info.plist */,
@@ -231,9 +237,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67556B52273A8E910060ABEF /* 45088086-940Smiley_Harmonie_Thinkstock.jpg in Resources */,
+				67556B56273A8F550060ABEF /* Main.storyboard in Resources */,
 				67556B2E273A8AAC0060ABEF /* LaunchScreen.storyboard in Resources */,
 				67556B2B273A8AAC0060ABEF /* Assets.xcassets in Resources */,
-				67556B29273A8AAC0060ABEF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +267,7 @@
 			files = (
 				67556B26273A8AAC0060ABEF /* ViewController.swift in Sources */,
 				67556B22273A8AAC0060ABEF /* AppDelegate.swift in Sources */,
+				67556B54273A8EE90060ABEF /* GameLogik.swift in Sources */,
 				67556B24273A8AAC0060ABEF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,14 +304,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		67556B27273A8AAC0060ABEF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				67556B28273A8AAC0060ABEF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		67556B2C273A8AAC0060ABEF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
